@@ -22,7 +22,6 @@ body{
     height: 270px;
     margin-left: 120px;
     margin-top: 285px;
-    border: 1px solid red;
 }
 .Journey-text{
     width: 582px;
@@ -51,7 +50,7 @@ body{
     gap: 8px;
     text-decoration: none;
 
-    position: absolute;
+    /* position: absolute; */
     width: 140px;
     height: 24px;
     padding: 10px 24px;
@@ -75,7 +74,6 @@ body{
     height: 475px;
     margin-top: 181px;
     margin-bottom: 69px;
-    border: 1px solid red;
 }
 .camera img{
     margin-top: 30px;  
@@ -83,16 +81,17 @@ body{
 
 /* Logo section style */
 .logos{
-    position: absolute;
+    /* position: absolute; */
     width: 1110px;
     height: 110px;
-    margin-left: 165px;
-    margin-right: 165px;
+    margin-left: 200px;
+    margin-right: 200px;
+    
     background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
 }
 
 .logo{
-    position: relative;
+    /* position: relative; */
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -102,4 +101,50 @@ body{
     height: 39.61px;
     margin-top: 45px;
     margin-left: 5%;
+    padding: 36px 41px;
+}
+.line{
+    
+}
+/* collection style */
+
+.container{
+    width: 1047px;
+    /* height: 1662px; */
+    margin-top: 100px;
+    margin-left: 230px;
+    margin-right: 230px;
+    border: 1px solid red;
+}
+.product-title{
+    /* margin-top: 100px; */
+    margin-bottom: 30px;
+    font-size: 28px;
+    line-height: 70px;
+    text-align: center;
+    color: var(--secondery-color);
+}
+.collection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+.collection, .product, .product-img img{
+    width: 310px;
+    height: 256px;
+    margin-right: 0%;
+}
+.product{
+    width: 309px;
+    height: 476px;
+    padding: 10px;
+
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+.see-more{
+    width: 99px;
+    height: 24px;
+    text-align: right;
 }
